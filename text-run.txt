@@ -1,0 +1,22 @@
+Script started on Tue 15 Dec 2020 01:56:33 PM EST
+[root@centos246 repos]# clear[K[K[K[K[Kclear
+[H[J[root@centos246 repos]# which cleanup
+/usr/bin/which: no cleanup in (/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin)
+[root@centos246 repos]# cd bin
+bash: cd: bin: No such file or directory
+[root@centos246 repos]# cd /media
+[root@centos246 media]# ls
+[0m[01;34mcdrom[0m
+[root@centos246 media]# cd tf-shared/
+bash: cd: tf-shared/: No such file or directory
+[root@centos246 media]# ls
+[0m[01;34mcdrom[0m
+[root@centos246 media]# cleanup test_run.txt
+bash: cleanup: command not found
+[root@centos246 media]# mkdir ~/bin
+[root@centos246 media]# which cleanup
+/usr/bin/which: no cleanup in (/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin)
+[root@centos246 media]# exit
+exit
+
+Script done on Tue 15 Dec 2020 02:33:10 PM EST

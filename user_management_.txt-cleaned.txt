@@ -1,0 +1,58 @@
+Script started on Thu 17 Dec 2020 09:13:23 AM EST
+[root@centos246 ~]# cde/
+[root@centos246 /]# ls -la
+total 20
+dr-xr-xr-x.  20 root   root	    266 Dec 16 13:49 .
+dr-xr-xr-x.  20 root   root	    266 Dec 16 13:49 ..
+lrwxrwxrwx.   1 root   root	      7 Oct 28 15:08 bin -> usr/bin
+dr-xr-xr-x.   5 root   root	   4096 Dec 16 13:37 boot
+drwxr-xr-x.  20 root   root	   3120 Dec 17 08:39 dev
+drwxrwxr-x.   2 john   Engineering   22 Dec 17 08:34 Engineering
+drwxr-xr-x.  97 root   root	   8192 Dec 17 09:01 etc
+drwxr-xr-x.  14 root   root	    160 Dec 17 08:26 home
+drwxrwxr-x.   2 sally  root	     22 Dec 17 08:36 IS
+lrwxrwxrwx.   1 root   root	      7 Oct 28 15:08 lib -> usr/lib
+lrwxrwxrwx.   1 root   root	      9 Oct 28 15:08 lib64 -> usr/lib64
+drwxrwxr-x.   5 root   wheel	     58 Dec 16 13:41 media
+drwxr-xr-x.   2 root   root	      6 Apr 11	2018 mnt
+drwxr-xr-x.   3 root   root	     39 Nov 17 15:04 opt
+dr-xr-xr-x. 109 root   root	      0 Dec 17 08:39 proc
+dr-xr-x---.   8 root   root	    249 Dec 15 14:33 root
+drwxr-xr-x.  28 root   root	    820 Dec 17 08:39 run
+drwxrwx---.   2 olivia root	     22 Dec 17 08:07 Sales
+lrwxrwxrwx.   1 root   root	      8 Oct 28 15:08 sbin -> usr/sbin
+drwxr-xr-x.   2 root   root	      6 Apr 11	2018 srv
+dr-xr-xr-x.  13 root   root	      0 Dec 17 08:39 sys
+drwxrwxrwt.  11 root   root	   4096 Dec 17 08:39 tmp
+drwxr-xr-x.  13 root   root	    155 Oct 28 15:08 usr
+drwxr-xr-x.  19 root   root	    267 Nov  3 14:19 var
+[root@centos246 /]# grep Engineering /etc/group
+Engineering:x:1002:john,holly,jake
+[root@centos246 /]# greppSales /etc/group
+Sales:x:1004:olivia,mandy,jack
+[root@centos246 /]# grep IS /etc/group
+IS:x:1003:sally,kathy,gale
+[root@centos246 /]# cd Engineering
+[root@centos246 Engineering]# ls -la
+total 0
+drwxrwxr-x.  2 john Engineering	 22 Dec 17 08:34 .
+dr-xr-xr-x. 20 root root	266 Dec 16 13:49 ..
+-rwxr-----.  1 john john	  0 Dec 17 08:34 file.txt
+[root@centos246 Engineering]# cd /
+[root@centos246 /]# cd Sales
+[root@centos246 Sales]# ls -la
+total 0
+drwxrwx---.  2 olivia root  22 Dec 17 08:07 .
+dr-xr-xr-x. 20 root   root 266 Dec 16 13:49 ..
+-rwxr-----.  1 root   root   0 Dec 17 08:07 file.txt
+[root@centos246 Sales]# cd /
+[root@centos246 /]# cd IS
+[root@centos246 IS]# ls -la
+total 0
+drwxrwxr-x.  2 sally root   22 Dec 17 08:36 .
+dr-xr-xr-x. 20 root  root  266 Dec 16 13:49 ..
+-rwxr-----.  1 sally sally   0 Dec 17 08:36 file.txt
+[root@centos246 IS]# exit
+exit
+
+Script done on Thu 17 Dec 2020 09:15:20 AM EST

@@ -1,0 +1,58 @@
+Script started on Thu 17 Dec 2020 09:13:23 AM EST
+[root@centos246 ~]# grep [K[K[K[K[Kcd /
+[root@centos246 /]# ls -la
+total 20
+dr-xr-xr-x.  20 root   root         266 Dec 16 13:49 [0m[01;34m.[0m
+dr-xr-xr-x.  20 root   root         266 Dec 16 13:49 [01;34m..[0m
+lrwxrwxrwx.   1 root   root           7 Oct 28 15:08 [01;36mbin[0m -> [01;34musr/bin[0m
+dr-xr-xr-x.   5 root   root        4096 Dec 16 13:37 [01;34mboot[0m
+drwxr-xr-x.  20 root   root        3120 Dec 17 08:39 [01;34mdev[0m
+drwxrwxr-x.   2 john   Engineering   22 Dec 17 08:34 [01;34mEngineering[0m
+drwxr-xr-x.  97 root   root        8192 Dec 17 09:01 [01;34metc[0m
+drwxr-xr-x.  14 root   root         160 Dec 17 08:26 [01;34mhome[0m
+drwxrwxr-x.   2 sally  root          22 Dec 17 08:36 [01;34mIS[0m
+lrwxrwxrwx.   1 root   root           7 Oct 28 15:08 [01;36mlib[0m -> [01;34musr/lib[0m
+lrwxrwxrwx.   1 root   root           9 Oct 28 15:08 [01;36mlib64[0m -> [01;34musr/lib64[0m
+drwxrwxr-x.   5 root   wheel         58 Dec 16 13:41 [01;34mmedia[0m
+drwxr-xr-x.   2 root   root           6 Apr 11  2018 [01;34mmnt[0m
+drwxr-xr-x.   3 root   root          39 Nov 17 15:04 [01;34mopt[0m
+dr-xr-xr-x. 109 root   root           0 Dec 17 08:39 [01;34mproc[0m
+dr-xr-x---.   8 root   root         249 Dec 15 14:33 [01;34mroot[0m
+drwxr-xr-x.  28 root   root         820 Dec 17 08:39 [01;34mrun[0m
+drwxrwx---.   2 olivia root          22 Dec 17 08:07 [01;34mSales[0m
+lrwxrwxrwx.   1 root   root           8 Oct 28 15:08 [01;36msbin[0m -> [01;34musr/sbin[0m
+drwxr-xr-x.   2 root   root           6 Apr 11  2018 [01;34msrv[0m
+dr-xr-xr-x.  13 root   root           0 Dec 17 08:39 [01;34msys[0m
+drwxrwxrwt.  11 root   root        4096 Dec 17 08:39 [30;42mtmp[0m
+drwxr-xr-x.  13 root   root         155 Oct 28 15:08 [01;34musr[0m
+drwxr-xr-x.  19 root   root         267 Nov  3 14:19 [01;34mvar[0m
+[root@centos246 /]# grep Sales[K[K[K[K[KEginee[K[K[K[K[K[K[K Engineering /et/[Kc/group
+[01;31m[KEngineering[m[K:x:1002:john,holly,jake
+[root@centos246 /]# group[K[K[Kep Sales /etc/group
+[01;31m[KSales[m[K:x:1004:olivia,mandy,jack
+[root@centos246 /]# grep IS /etc/group
+[01;31m[KIS[m[K:x:1003:sally,kathy,gale
+[root@centos246 /]# cd Engineering
+[root@centos246 Engineering]# ls -la
+total 0
+drwxrwxr-x.  2 john Engineering  22 Dec 17 08:34 [0m[01;34m.[0m
+dr-xr-xr-x. 20 root root        266 Dec 16 13:49 [01;34m..[0m
+-rwxr-----.  1 john john          0 Dec 17 08:34 [01;32mfile.txt[0m
+[root@centos246 Engineering]# cd /
+[root@centos246 /]# cd Sales
+[root@centos246 Sales]# ls -la
+total 0
+drwxrwx---.  2 olivia root  22 Dec 17 08:07 [0m[01;34m.[0m
+dr-xr-xr-x. 20 root   root 266 Dec 16 13:49 [01;34m..[0m
+-rwxr-----.  1 root   root   0 Dec 17 08:07 [01;32mfile.txt[0m
+[root@centos246 Sales]# cd /
+[root@centos246 /]# s[Kcd IS
+[root@centos246 IS]# ls -la
+total 0
+drwxrwxr-x.  2 sally root   22 Dec 17 08:36 [0m[01;34m.[0m
+dr-xr-xr-x. 20 root  root  266 Dec 16 13:49 [01;34m..[0m
+-rwxr-----.  1 sally sally   0 Dec 17 08:36 [01;32mfile.txt[0m
+[root@centos246 IS]# exit
+exit
+
+Script done on Thu 17 Dec 2020 09:15:20 AM EST
